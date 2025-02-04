@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD008A002D51BD190059596C /* bgp_llama_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0089FF2D51BD190059596C /* bgp_llama_iosApp.swift */; };
+		BD008A042D51BD1A0059596C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD008A032D51BD1A0059596C /* Assets.xcassets */; };
+		BD008A072D51BD1A0059596C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD008A062D51BD1A0059596C /* Preview Assets.xcassets */; };
+		BD008A112D51BE600059596C /* ChatMassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A102D51BE600059596C /* ChatMassage.swift */; };
+		BD008A152D51C47D0059596C /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A142D51C47D0059596C /* RootViewModel.swift */; };
+		BD008A172D51C4CC0059596C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A162D51C4CC0059596C /* OnboardingViewModel.swift */; };
+		BD008A192D51C5420059596C /* MainLandingPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A182D51C5420059596C /* MainLandingPageViewModel.swift */; };
+		BD008A1B2D51C5AE0059596C /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A1A2D51C5AE0059596C /* ChatViewModel.swift */; };
+		BD008A1D2D51C5BC0059596C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A1C2D51C5BC0059596C /* OnboardingView.swift */; };
+		BD008A1F2D51C5CD0059596C /* MainLandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD008A1E2D51C5CD0059596C /* MainLandingPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD0089FC2D51BD190059596C /* bgp-llama-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bgp-llama-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0089FF2D51BD190059596C /* bgp_llama_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bgp_llama_iosApp.swift; sourceTree = "<group>"; };
+		BD008A032D51BD1A0059596C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD008A062D51BD1A0059596C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD008A102D51BE600059596C /* ChatMassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMassage.swift; sourceTree = "<group>"; };
+		BD008A142D51C47D0059596C /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		BD008A162D51C4CC0059596C /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		BD008A182D51C5420059596C /* MainLandingPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLandingPageViewModel.swift; sourceTree = "<group>"; };
+		BD008A1A2D51C5AE0059596C /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		BD008A1C2D51C5BC0059596C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BD008A1E2D51C5CD0059596C /* MainLandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLandingPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0089F92D51BD190059596C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0089F32D51BD190059596C = {
+			isa = PBXGroup;
+			children = (
+				BD0089FE2D51BD190059596C /* bgp-llama-ios */,
+				BD0089FD2D51BD190059596C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0089FD2D51BD190059596C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0089FC2D51BD190059596C /* bgp-llama-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0089FE2D51BD190059596C /* bgp-llama-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BD008A0F2D51BD590059596C /* Views */,
+				BD008A0E2D51BD510059596C /* ViewModels */,
+				BD008A0D2D51BD3E0059596C /* Models */,
+				BD0089FF2D51BD190059596C /* bgp_llama_iosApp.swift */,
+				BD008A032D51BD1A0059596C /* Assets.xcassets */,
+				BD008A052D51BD1A0059596C /* Preview Content */,
+			);
+			path = "bgp-llama-ios";
+			sourceTree = "<group>";
+		};
+		BD008A052D51BD1A0059596C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD008A062D51BD1A0059596C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD008A0D2D51BD3E0059596C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD008A102D51BE600059596C /* ChatMassage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD008A0E2D51BD510059596C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BD008A142D51C47D0059596C /* RootViewModel.swift */,
+				BD008A162D51C4CC0059596C /* OnboardingViewModel.swift */,
+				BD008A182D51C5420059596C /* MainLandingPageViewModel.swift */,
+				BD008A1A2D51C5AE0059596C /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD008A0F2D51BD590059596C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD008A1C2D51C5BC0059596C /* OnboardingView.swift */,
+				BD008A1E2D51C5CD0059596C /* MainLandingPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0089FB2D51BD190059596C /* bgp-llama-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD008A0A2D51BD1A0059596C /* Build configuration list for PBXNativeTarget "bgp-llama-ios" */;
+			buildPhases = (
+				BD0089F82D51BD190059596C /* Sources */,
+				BD0089F92D51BD190059596C /* Frameworks */,
+				BD0089FA2D51BD190059596C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bgp-llama-ios";
+			productName = "bgp-llama-ios";
+			productReference = BD0089FC2D51BD190059596C /* bgp-llama-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0089F42D51BD190059596C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BD0089FB2D51BD190059596C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BD0089F72D51BD190059596C /* Build configuration list for PBXProject "bgp-llama-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0089F32D51BD190059596C;
+			productRefGroup = BD0089FD2D51BD190059596C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0089FB2D51BD190059596C /* bgp-llama-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0089FA2D51BD190059596C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD008A072D51BD1A0059596C /* Preview Assets.xcassets in Resources */,
+				BD008A042D51BD1A0059596C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0089F82D51BD190059596C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD008A112D51BE600059596C /* ChatMassage.swift in Sources */,
+				BD008A152D51C47D0059596C /* RootViewModel.swift in Sources */,
+				BD008A002D51BD190059596C /* bgp_llama_iosApp.swift in Sources */,
+				BD008A192D51C5420059596C /* MainLandingPageViewModel.swift in Sources */,
+				BD008A1B2D51C5AE0059596C /* ChatViewModel.swift in Sources */,
+				BD008A172D51C4CC0059596C /* OnboardingViewModel.swift in Sources */,
+				BD008A1F2D51C5CD0059596C /* MainLandingPageView.swift in Sources */,
+				BD008A1D2D51C5BC0059596C /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD008A082D51BD1A0059596C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD008A092D51BD1A0059596C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD008A0B2D51BD1A0059596C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bgp-llama-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = KFKP37Q73C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyonbokan.bgp-llama-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD008A0C2D51BD1A0059596C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bgp-llama-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = KFKP37Q73C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyonbokan.bgp-llama-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0089F72D51BD190059596C /* Build configuration list for PBXProject "bgp-llama-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD008A082D51BD1A0059596C /* Debug */,
+				BD008A092D51BD1A0059596C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD008A0A2D51BD1A0059596C /* Build configuration list for PBXNativeTarget "bgp-llama-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD008A0B2D51BD1A0059596C /* Debug */,
+				BD008A0C2D51BD1A0059596C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0089F42D51BD190059596C /* Project object */;
+}
